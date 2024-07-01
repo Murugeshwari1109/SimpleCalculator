@@ -27,7 +27,8 @@ function App() {
  
   return (
     <div className="flex flex-col items-center justify-center h-screen bg-gray-100 "
-    style={{background:'linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12)'}}>
+    // style={{background:'linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12)'}}
+    >
       <div className="text-3xl font-bold mb-4 text-gray-700">Simple Calculator</div>
       <div className="w-80 h-[8vh]  p-3 text-3xl rounded-lg bg-gray-200 mb-4" >
         <span>{input}</span><span>{result}</span>
